@@ -1,0 +1,33 @@
+/*태그 스타일 초기화*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit; /*브라우저에서 주는 스타일취소*/
+    font-size: inherit;   
+}
+strong {
+    font-weight: inherit;
+}
+em,address {
+    font-style: normal; /*글자의 기울기 취소*/
+}
+a {
+    color: inherit; /*글자 파란색삭제*/
+    text-decoration: none;/*밑줄삭제*/
+}
+button {
+    cursor: pointer;/*마우스포인터 손바닥*/
+    font-family: inherit;/*글자의기본스타일을 상속받지않아서씀*/
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color : inherit;
+    border: none;
+    background-color: transparent;/*배경색 투명*/
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*높이/넓이를 준 경우 유지시키는 코드*/
+}
+li {
+    list-style: none;/*li 앞에 동그라미삭제*/
+}
