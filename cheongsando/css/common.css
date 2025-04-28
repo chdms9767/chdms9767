@@ -17,7 +17,7 @@ body {
         1260 + 24 + 24 = 1308
         1260 + 30 + 30 = 1320 
     */
-    position: relative;
+    position: relative; /* header 정렬의 기준 */
 }
 /* 글자를 숨겨야하는 경우 blind 클래스를 적용 */
 .blind {
