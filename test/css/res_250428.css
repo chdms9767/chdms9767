@@ -1,0 +1,90 @@
+@import url(default.css);
+@import url(font.css);
+@import url(res_common.css);
+
+.tj {
+    margin: 165px 0 0 0;
+}
+.tj .group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tj .group.left {
+    flex-direction: row-reverse;
+}
+.tj .group.rigth {
+    text-align: right;
+    margin: 50px 0 0 0;
+}
+.tj .group .tit h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #1d1d1d;
+    margin: 0 0 21px 0;
+}
+.tj .group .photo {
+    border-radius: 34px;
+    overflow: hidden;
+    height: 370px;
+    width: 511px;
+}
+.tj .group .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:640px) {
+
+                        .tj {
+                            margin: 45px 0 0 0;
+                        }
+                        .tj .group {
+                            display: block;
+                        }
+                        .tj .group.rigth {
+                            text-align: left;
+                            margin: 51px 0 0 0;
+                        }
+                        .tj .group .tit h2 {
+                            font-size: 30px;
+
+                            margin: 24px 0 14px 0;
+                        }
+                        .tj .group .tit p br {
+                            display: none;
+                        }
+                        .tj .group .photo {
+                            border-radius: 15px;
+                            height: 320px;
+                            width: auto;
+                        }
+
+
+}
+
+.gallery {
+    margin: 150px 0 0 0;
+}
+.gallery .photo {
+    border-radius: 34px;
+    overflow: hidden;/*필수*/
+    font-size: 0;
+    line-height: 0;
+}
+.gallery .photo img {
+    width: 100%;
+}
+@media screen and (max-width:640px) {
+                        .gallery {
+                            margin: 89px 0 0 0;
+                        }
+                        .gallery .photo {
+                            border-radius: 15px;
+                        }
+}
+
+body {
+    margin: 0 0 400px 0;
+}

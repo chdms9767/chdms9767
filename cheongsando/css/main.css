@@ -501,7 +501,7 @@ header .tnb a:first-child:before {
     bottom: 0;
     width: calc(100% -5px);
     height: 1px;
-    background-color: rgba(red, green, blue, alpha);
+
 }
 .community .inner .link {
     width: 316px;
